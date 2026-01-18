@@ -1,74 +1,84 @@
-# Next.js Landing Page
+# Enrique René | Full Stack UX Engineer Portfolio
 
-A modern, responsive landing page built with Next.js, TypeScript, and TailwindCSS. This project follows SOLID principles, clean code practices, and DRY (Don't Repeat Yourself) concepts.
+Professional portfolio website designed to showcase expertise in Full Stack Engineering and User Experience, specifically optimized for US and LATAM recruiters.
 
-## Features
+**Live Website:** [https://enriquerene.com.br](https://enriquerene.com.br)
 
-- 🚀 Built with Next.js 14 and TypeScript
-- 💅 Styled with TailwindCSS
-- 📱 Fully responsive design
-- 🎨 Modern UI with background image
-- 🔗 Social media icon links
+## 🚀 Overview
 
-## Tech Stack
+This project is a high-performance, modern web application built with Next.js. It features a sophisticated design, optimized for readability and professional impact, highlighting technical mastery across the entire software development lifecycle.
 
-- [Next.js](https://nextjs.org/) - React framework for production
-- [TypeScript](https://www.typescriptlang.org/) - Static type checking
-- [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [React Icons](https://react-icons.github.io/react-icons/) - Popular icon library
+## 🛠️ Technical Stack
 
-## Getting Started
+- **Framework:** Next.js 15+ (App Router)
+- **Language:** TypeScript
+- **Styling:**
+    - Tailwind CSS (Utility-first styling)
+    - Styled Components (Complex UI logic)
+- **UI Components:** React Icons
+- **Documentation & UI Development:** Storybook
+- **Testing:** Vitest
+- **Infrastructure:** AWS, Google Tag Manager
+
+## 🏗️ Architecture: Domain-Driven Atomic Design
+
+The project follows a structured component architecture to ensure scalability and maintainability:
+
+- `src/components/ui/base/`: Atomic UI elements (Buttons, Icons, Badges).
+- `src/components/ui/composed/`: Molecules and Organisms (Navigation rows, Menus).
+- `src/components/layout/base/`: Structural atoms (Sections).
+- `src/components/layout/composed/`: Complex layout organisms (Header, Footer).
+- `src/components/domain/[feature]/`: Feature-specific logic and UI (Hero, Experience, TechStack).
+
+## ✨ Key Features
+
+- **Strategic Value Proposition:** Clear messaging targeting international recruitment.
+- **Featured Experience:** Detailed career history with technical highlight badges.
+- **US & LATAM Focus:** Explicit emphasis on timezone alignment, bilingual communication, and remote work expertise.
+- **Technical Arsenal:** Interactive list of modern technologies (React, Next.js, Node.js, Laravel, etc.).
+- **Professional Design:** Sophisticated background effects, glassmorphism, and responsive layouts.
+- **Integrated Documentation:** Full Storybook coverage for all UI components.
+
+## 🛠️ Development
 
 ### Prerequisites
 
-- Node.js 18.17 or later
-- npm 9.6.7 or later
+- Node.js (v18+)
+- npm / yarn
 
-### Installation
+### Getting Started
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/nextjs-website.git
-   cd nextjs-website
-   ```
-
-2. Install dependencies
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Run the development server
+2. Run the development server:
    ```bash
    npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Project Structure
+### Build & Production
 
-```
-├── public/          # Static assets
-├── src/
-│   ├── app/         # App router pages
-│   ├── components/  # Reusable components
-│   ├── lib/         # Utility functions
-│   └── types/       # TypeScript type definitions
-├── tailwind.config.ts  # TailwindCSS configuration
-└── tsconfig.json   # TypeScript configuration
-```
+- Build the application:
+  ```bash
+  npm run build
+  ```
+- Start production server:
+  ```bash
+  npm start
+  ```
 
-## Development
+### Storybook
 
-This project uses Next.js App Router and follows modern React patterns. Components are organized following a modular approach to maintain clean code and reusability.
-
-## Deployment
-
-This project can be easily deployed on [Vercel](https://vercel.com/) or any other hosting platform that supports Next.js applications.
+View and interact with the component library in isolation:
 
 ```bash
-npm run build
+npm run storybook
 ```
 
-## License
+## 📄 License
 
-MIT
+© 2026 Enrique René. All rights reserved.
