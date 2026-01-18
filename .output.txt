@@ -1,0 +1,235 @@
+
+> nextjs-website@0.1.0 build-storybook
+> storybook build
+┌  Building storybook v10.1.11
+│
+◇  Cleaning outputDir: storybook-static
+│
+◇  Loading presets
+│
+◇  Building manager..
+│
+●  Building preview..
+│
+▲  No story files found for the specified pattern: src/components/*.mdx
+│
+▲  No story files found for the specified pattern:
+│  src/components/layout/templates/**/*.stories.@(tsx)
+│
+●  Copying static files: public at storybook-static
+│  Vite vite v7.3.1 building client environment for production...
+│
+▲  Vite src/providers/ThemeProvider.tsx (1:0): Error when using sourcemap
+│  for reporting an error: Can't resolve original location of error.
+│
+▲  Vite src/providers/ThemeProvider.tsx (1:0): Module level directives
+│  cause errors when bundled, "use client" in
+│  "src/providers/ThemeProvider.tsx" was ignored.
+│
+▲  Vite src/components/domain/home/HomeTitle.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/domain/home/HomeTitle.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/domain/home/HomeTitle.tsx" was ignored.
+│
+▲  Vite src/components/domain/experience/FeaturedRoles.tsx (1:0): Error
+│  when using sourcemap for reporting an error: Can't resolve original
+│  location of error.
+│
+▲  Vite src/components/domain/experience/FeaturedRoles.tsx (1:0): Module
+│  level directives cause errors when bundled, "use client" in
+│  "src/components/domain/experience/FeaturedRoles.tsx" was ignored.
+│
+▲  Vite src/components/layout/composed/Footer.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/layout/composed/Footer.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/layout/composed/Footer.tsx" was ignored.
+│
+▲  Vite src/components/domain/home/Hero.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/domain/home/Hero.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/domain/home/Hero.tsx" was ignored.
+│
+▲  Vite src/components/ui/base/SocialIcon.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/ui/base/SocialIcon.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/ui/base/SocialIcon.tsx" was ignored.
+│
+▲  Vite src/components/ui/base/Logo.tsx (1:0): Error when using sourcemap
+│  for reporting an error: Can't resolve original location of error.
+│
+▲  Vite src/components/ui/base/Logo.tsx (1:0): Module level directives
+│  cause errors when bundled, "use client" in
+│  "src/components/ui/base/Logo.tsx" was ignored.
+│
+▲  Vite src/components/ui/base/AvailabilityBadge.tsx (1:0): Error when
+│  using sourcemap for reporting an error: Can't resolve original
+│  location of error.
+│
+▲  Vite src/components/ui/base/AvailabilityBadge.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/ui/base/AvailabilityBadge.tsx" was ignored.
+│
+▲  Vite src/components/layout/composed/Header.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/layout/composed/Header.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/layout/composed/Header.tsx" was ignored.
+│
+▲  Vite src/components/ui/composed/SocialLinksRow.tsx (1:0): Error when
+│  using sourcemap for reporting an error: Can't resolve original
+│  location of error.
+│
+▲  Vite src/components/ui/composed/SocialLinksRow.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/ui/composed/SocialLinksRow.tsx" was ignored.
+│
+▲  Vite src/components/layout/base/Section.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/layout/base/Section.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/layout/base/Section.tsx" was ignored.
+│
+▲  Vite src/components/ui/base/Button.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/ui/base/Button.tsx (1:0): Module level directives
+│  cause errors when bundled, "use client" in
+│  "src/components/ui/base/Button.tsx" was ignored.
+│
+▲  Vite src/components/domain/home/TechStack.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/domain/home/TechStack.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/domain/home/TechStack.tsx" was ignored.
+│
+▲  Vite src/components/ui/composed/MobileMenu.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/ui/composed/MobileMenu.tsx (1:0): Module level
+│  directives cause errors when bundled, "use client" in
+│  "src/components/ui/composed/MobileMenu.tsx" was ignored.
+│
+▲  Vite src/components/ui/base/NavLink.tsx (1:0): Error when using
+│  sourcemap for reporting an error: Can't resolve original location of
+│  error.
+│
+▲  Vite src/components/ui/base/NavLink.tsx (1:0): Module level directives
+│  cause errors when bundled, "use client" in
+│  "src/components/ui/base/NavLink.tsx" was ignored.
+│  Vite ✓ 479 modules transformed.
+│  Vite storybook-static/iframe.html
+│  19.41 kB │ gzip:   5.18 kB
+│  Vite storybook-static/assets/iframe-xo93vTEp.css
+│  26.50 kB │ gzip:   5.53 kB
+│  Vite storybook-static/assets/formatter-QJ4M4OGQ-CW7iSczQ.js
+│  0.26 kB │ gzip:   0.22 kB
+│  Vite storybook-static/assets/index-2h1d8EJt.js
+│  0.46 kB │ gzip:   0.30 kB
+│  Vite storybook-static/assets/Logo-D-tWaWTd.js
+│  0.50 kB │ gzip:   0.33 kB
+│  Vite storybook-static/assets/HomeTitle.stories-BnY2FNL3.js
+│  0.51 kB │ gzip:   0.32 kB
+│  Vite storybook-static/assets/TechStack.stories-Dn85ECJS.js
+│  0.54 kB │ gzip:   0.34 kB
+│  Vite storybook-static/assets/constants-DsD9L4Vc.js
+│  0.63 kB │ gzip:   0.38 kB
+│  Vite storybook-static/assets/SocialLinksRow.stories-CxUr0r2o.js
+│  0.64 kB │ gzip:   0.39 kB
+│  Vite storybook-static/assets/NavLink-SfOSObln.js
+│  0.73 kB │ gzip:   0.40 kB
+│  Vite storybook-static/assets/HomeTitle-BUJt5zw8.js
+│  0.80 kB │ gzip:   0.44 kB
+│  Vite storybook-static/assets/AvailabilityBadge-BHNQpqr0.js
+│  0.88 kB │ gzip:   0.48 kB
+│  Vite storybook-static/assets/SocialLinksRow-CGMjwJ58.js
+│  0.94 kB │ gzip:   0.52 kB
+│  Vite storybook-static/assets/Logo.stories-CINqWFMV.js
+│  1.00 kB │ gzip:   0.50 kB
+│  Vite storybook-static/assets/TechStack-Dw9G-dnj.js
+│  1.03 kB │ gzip:   0.46 kB
+│  Vite storybook-static/assets/NavLink.stories-C_PFScTh.js
+│  1.10 kB │ gzip:   0.52 kB
+│  Vite storybook-static/assets/AvailabilityBadge.stories-C6By5Ds1.js
+│  1.11 kB │ gzip:   0.52 kB
+│  Vite storybook-static/assets/MobileMenu-B5T8auXp.js
+│  1.15 kB │ gzip:   0.59 kB
+│  Vite storybook-static/assets/preload-helper-PPVm8Dsz.js
+│  1.23 kB │ gzip:   0.71 kB
+│  Vite storybook-static/assets/MobileMenu.stories-Cv5epAW-.js
+│  1.38 kB │ gzip:   0.60 kB
+│  Vite storybook-static/assets/Button-fZnitjC3.js
+│  1.42 kB │ gzip:   0.69 kB
+│  Vite storybook-static/assets/SocialIcon-DduMVsBd.js
+│  1.49 kB │ gzip:   0.69 kB
+│  Vite storybook-static/assets/Section.stories-Y4n8hCpG.js
+│  2.03 kB │ gzip:   0.81 kB
+│  Vite storybook-static/assets/SocialIcon.stories-XxB38Q0k.js
+│  2.03 kB │ gzip:   0.73 kB
+│  Vite storybook-static/assets/Button.stories-D0_4x3AF.js
+│  2.07 kB │ gzip:   0.77 kB
+│  Vite storybook-static/assets/Header.stories-CKr2ttzE.js
+│  2.09 kB │ gzip:   1.05 kB
+│  Vite storybook-static/assets/Footer.stories-C_7op65O.js
+│  2.44 kB │ gzip:   1.04 kB
+│  Vite storybook-static/assets/Hero.stories-3xdFWoiH.js
+│  2.75 kB │ gzip:   1.32 kB
+│  Vite storybook-static/assets/link-CmsJEtf3.js
+│  6.82 kB │ gzip:   2.59 kB
+│  Vite storybook-static/assets/FeaturedRoles.stories-CAjvg7qp.js
+│  7.58 kB │ gzip:   3.24 kB
+│  Vite storybook-static/assets/index-Dq83rT30.js
+│  22.92 kB │ gzip:   9.57 kB
+│  Vite storybook-static/assets/utils-fNskMoFt.js
+│  25.51 kB │ gzip:   8.18 kB
+│  Vite storybook-static/vite-inject-mocker-entry.js
+│  28.30 kB │ gzip:   9.84 kB
+│  Vite storybook-static/assets/matchers-DMFSMG2O-HJu_DfWo.js
+│  29.23 kB │ gzip:  10.06 kB
+│  Vite storybook-static/assets/Color-ASIRERSW-Cj0GcMjK.js
+│  29.93 kB │ gzip:  11.37 kB
+│  Vite storybook-static/assets/WithTooltip-IO6J4KBT-DjoBqHtQ.js
+│  33.07 kB │ gzip:  11.65 kB
+│  Vite storybook-static/assets/syntaxhighlighter-IQDEPFLK-dIgr3Ge4.js
+│  77.92 kB │ gzip:  27.34 kB
+│  Vite storybook-static/assets/react-18-S5IR0pZE.js
+│  174.60 kB │ gzip:  55.31 kB
+│  Vite storybook-static/assets/axe-MwFoATN2.js
+│  579.41 kB │ gzip: 159.47 kB
+│  Vite storybook-static/assets/DocsRenderer-GHJI37HO-BIf5FByj.js
+│  802.65 kB │ gzip: 256.90 kB
+│  Vite storybook-static/assets/iframe-CJQs0afO.js
+│  1,272.16 kB │ gzip: 365.13 kB
+│
+▲  Vite
+│  (!) Some chunks are larger than 500 kB after minification. Consider:
+│  - Using dynamic import() to code-split the application
+│  - Use build.rollupOptions.output.manualChunks to improve chunking:
+│  https://rollupjs.org/configuration-options/#output-manualchunks
+│  - Adjust chunk size limit for this warning via
+│  build.chunkSizeWarningLimit.
+│  Vite ✓ built in 9.20s
+│
+◇  Output directory: /home/enriquerene/Workspaces/Enrique
+│  Portfolio/nextjs-website/storybook-static
+│
+└  Storybook build completed successfully
