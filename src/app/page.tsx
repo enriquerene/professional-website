@@ -56,7 +56,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-blue-400">US & LATAM Focused</h2>
           <p className="text-xl text-gray-300 mb-12">
             Specialized in collaborating with international teams across US and LATAM. 
-            Providing high-quality software solutions with perfect timezone alignment and bilingual communication.
+            Providing high-quality software solutions with perfect timezone alignment and polyglot communication.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
             <div className="text-left p-6 border-l-4 border-blue-500 bg-gray-800 rounded-r-lg">

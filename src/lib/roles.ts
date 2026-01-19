@@ -8,7 +8,7 @@ export const FEATURED_ROLES: FeaturedRole[] = [
     period: '07/2025 – 12/2025',
     brief: 'US based commerce management system for in-person firearm store what is extending to high scale ecommerce bringing new needs on its architecture demanding redesign of legacy non-OOP PHP source code into modern stack. Additionally the system integrates to several ecommerce platforms like WooCommerce, Shopify, Big Commerce among others.',
     description: 'Maintenance and contributions to migration process of a eCommerce management system in the US firearm industry. Legacy system being replaced by Laravel REST API, GraphQL endpoint and ReactJS application. Perform System integration with WooCommerce, maintenance of WordPress Plugins, documentation, UI/UX aspects of plugin widgets and blocks. Website optimization. Global environment.',
-    technologies: ['PHP', 'Laravel', 'ReactJS', 'WordPress', 'WooCommerce', 'GraphQL', 'API Integration', 'UI/UX']
+    technologies: ['PHP', 'ReactJS', 'WordPress', 'WooCommerce', 'API Integration', 'UI/UX']
   },
   {
     id: 'cnf',
