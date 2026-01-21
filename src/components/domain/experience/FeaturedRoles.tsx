@@ -53,9 +53,19 @@ export const FeaturedRoles: React.FC = () => {
                   <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
                   Key Contributions
                 </h4>
-                <p className="text-gray-400 leading-relaxed text-sm md:text-base">
-                  {role.description}
-                </p>
+                <div className="text-gray-400 leading-relaxed text-sm md:text-base space-y-4">
+                  <p>{role.description}</p>
+                  {role.subProjects && (
+                    <ul className="mt-4 space-y-4 border-l border-blue-500/30 pl-4">
+                      {role.subProjects.map((project, idx) => (
+                        <li key={idx}>
+                          <h5 className="text-blue-300 font-medium text-sm mb-1">{project.title}</h5>
+                          <p className="text-gray-400 text-sm leading-relaxed">{project.description}</p>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               </div>
             </div>
           </div>

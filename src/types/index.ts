@@ -20,6 +20,11 @@ export type SectionProps = {
   children: React.ReactNode;
 };
 
+export type SubProject = {
+  title: string;
+  description: string;
+};
+
 export type FeaturedRole = {
   id: string;
   title: string;
@@ -28,4 +33,5 @@ export type FeaturedRole = {
   brief: string;
   description: string;
   technologies: string[];
+  subProjects?: SubProject[];
 };

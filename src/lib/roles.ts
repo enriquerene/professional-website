@@ -3,38 +3,48 @@ import { FeaturedRole } from "../types";
 export const FEATURED_ROLES: FeaturedRole[] = [
   {
     id: 'trident1',
-    title: 'Full Stack Engineer',
-    company: 'Trident1 – Inspired',
-    period: '07/2025 – 12/2025',
-    brief: 'US based commerce management system for in-person firearm store what is extending to high scale ecommerce bringing new needs on its architecture demanding redesign of legacy non-OOP PHP source code into modern stack. Additionally the system integrates to several ecommerce platforms like WooCommerce, Shopify, Big Commerce among others.',
-    description: 'Maintenance and contributions to migration process of a eCommerce management system in the US firearm industry. Legacy system being replaced by Laravel REST API, GraphQL endpoint and ReactJS application. Perform System integration with WooCommerce, maintenance of WordPress Plugins, documentation, UI/UX aspects of plugin widgets and blocks. Website optimization. Global environment.',
-    technologies: ['PHP', 'ReactJS', 'WordPress', 'WooCommerce', 'API Integration', 'UI/UX']
+    title: 'Full Stack Engineer (Contract)',
+    company: 'Trident1 (US Firearm Industry)',
+    period: '07/2025 - 12/2025',
+    brief: 'Migration of a legacy non-OOP PHP WordPress plugin to modern block based composer based PHP 8.3 project.',
+    description: 'Developed complex integrations between the POS system and external WooCommerce platforms. Focused on modernizing legacy codebases using modern PHP 8.3 practices and WordPress block editor (Gutenberg) integration.',
+    technologies: ['PHP 8.3', 'WordPress', 'WooCommerce', 'React', 'Gutenberg', 'API Integration']
+  },
+  {
+    id: 'oowlish',
+    title: 'Senior Full Stack Engineer',
+    company: 'Oowlish (Remote / US Clients)',
+    period: '01/2021 – 05/2025',
+    brief: 'Provided staff-augmentation services for high-profile US startups, specializing in e-commerce and pet healthcare platforms.',
+    description: 'Lead developer in various projects, bridging technical excellence with business growth. Managed complex legacy migrations, e-commerce optimizations, and cloud infrastructure.',
+    technologies: ['Symfony', 'PHP', 'React', 'Shopify', 'AWS', 'Stripe/PayPal', 'Performance'],
+    subProjects: [
+      {
+        title: 'PetCoach (US Pet Healthcare)',
+        description: 'Maintained and modernized a high-traffic legacy application using Symfony, Backbone.js, and Cordova. Managed AWS infrastructure (EC2, RDS) ensuring 99.9% uptime for paid consultation services.'
+      },
+      {
+        title: 'Milbby (European E-commerce)',
+        description: 'Executed a pixel-perfect redesign of a massive Shopify store. Optimized Liquid code and JS bundles, achieving a 70% reduction in page load time.'
+      }
+    ]
   },
   {
     id: 'cnf',
-    title: 'Full Stack Engineer',
-    company: 'CNF – Derrico Consultoria',
-    period: '04/2024 – 07/2024, 12/2024 – 02/2025',
-    brief: 'National deceased register with large database exceeding 15 GB size. Migration of a legacy PHP system to Laravel framework, redesigning database entity relation, implementing a REST API and multi-role management panel using Filament.',
-    description: 'CNF stands for Cadastro Nacional de Falecidos (National Registry of Deceased) and aims to gather notary offices data related to deceased people for easy online paper work services and data analysis. The current job is a migration project from legacy PHP system website into a modern system built in Laravel. The new project comes with better UX interface following recent practices, new database modeling to handle huge amount of data (about 15GB), a REST API as a service for other companies usage. All the design system is based on Bootstrap. Implementation of administration area with Filament. The deployment pipeline starts on development environment and pass through stage environment for client approval and move forward to production finally. All the process is tracked in JIRA and Bitbucket platforms.',
-    technologies: ['Laravel', 'PHP 8.3', 'MySQL', 'Filament', 'Bootstrap', 'REST API', 'PHPUnit', 'JIRA', 'Bitbucket']
+    title: 'Full Stack Developer',
+    company: 'CNF (National Registry)',
+    period: '04/2024 – 02/2025',
+    brief: 'Migrating a 15GB+ database system from legacy PHP to Laravel & Filament.',
+    description: 'Designing a REST API to serve external partners and modernizing the UI with Bootstrap-based design systems. Focus on handling large data volumes and efficient database architecture.',
+    technologies: ['Laravel', 'Filament', 'PHP', 'MySQL', 'REST API', 'Bootstrap']
   },
   {
-    id: 'petcoach',
-    title: 'Full Stack Engineer',
-    company: 'PetCoach - Oowlish',
-    period: '06/2021 – 05/2025',
-    brief: 'US based pet healthcare product from large holding company specialized in pet industry. The product offers Question & Answer and online Consultation with pet experts. Maintenance of Hybrid Mobile App and website built in Backbone.js and Cordova, a Swagger documented REST API built in Symfony with Sonata for administrative panel. Drove SEO and accessibility improvements, leveraging AWS infrastructure, and manage the deployment and scaling of the application, ensuring reliability and performance with effective cross-team work.',
-    description: 'Maintenance of a REST API built in Symfony framework, event driven system for a famous Pet Care service in USA where Pet owners can ask questions in the open forum and private chat consultation. Both ones are paid services integrated with PayPal and Stripe third party service. Infrastructure is based on AWS. The application lies on EC2 instances, S3 Buckets, RDS and Cloud Front. The new features and bugfixes must pass through four environments which lie on Docker containerization: from development, integration, Q&A and finally to production environment. The chosen platform is GitLab that runs its own CI/CD tools for each merge request. The agile methodology is followed up in JIRA but at the beginning was in Trello boards. Maintenance checking Sentry, FastCron, PreRender, Google Analytics and other tools. Strongly based in SEO and Accessibility work there.',
-    technologies: ['Symfony', 'PHP', 'BackboneJS', 'Cordova', 'ReactJS', 'AWS', 'Docker', 'MySQL', 'PHPUnit', 'Cypress', 'GitLab CI/CD', 'SEO']
-  },
-  {
-    id: 'milbby',
-    title: 'Frontend Developer',
-    company: 'Milbby - Oowlish',
-    period: '01/2021 – 06/2021',
-    brief: 'Leading spanish e-commerce with more than 2000 products and hundreds of categories. Handled the UI/UX of a Shopify Theme following Adobe XD wireframes for pixel perfect redesign, focusing on cross-browser compatibility, mobile experience improvements and performance optimization, which reduced load time by almost 70%.',
-    description: 'Work on UI/UX redesign of Shopify theme for a spanish ecommerce with more than 2000 products and more than 200 categories that delivers for most of the countries in Europe. The team had started with three developers and growed up to 10 ones. The tasks mainly focused on CSS restyle, improve JS bundles, remove unused code and keep cross browser compatibility. Monthly LightHouse reports for track results from road map.',
-    technologies: ['Shopify', 'Liquid', 'JavaScript', 'SCSS', 'HTML5', 'UI/UX']
+    id: 'freelance',
+    title: 'Freelance Web Developer & Consultant',
+    company: 'Self-Employed',
+    period: '2011 – 2021',
+    brief: 'Delivered 20+ web projects for startups and local businesses.',
+    description: 'Built custom PWA solutions using React, AWS LightSail, and Django REST Framework. Developed custom WordPress themes and plugins. Configured advanced tracking setups using Google Tag Manager to help clients understand user behavior.',
+    technologies: ['React', 'WordPress', 'Django', 'AWS LightSail', 'GTM', 'Google Maps API']
   }
 ];
