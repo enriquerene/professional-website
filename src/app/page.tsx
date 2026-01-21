@@ -18,24 +18,24 @@ export default function Home() {
       </Section>
       <Section id="expertise" className="bg-gray-900 min-h-screen flex flex-col items-center justify-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-12 text-center text-blue-400">Core Expertise</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center text-blue-400">Strategic Expertise</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-8 bg-gray-800 rounded-xl border border-gray-700 hover:border-blue-500 transition-colors duration-300">
               <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6">
                 <FaCode className="text-blue-400 text-2xl" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4">Frontend Development</h3>
+              <h3 className="text-2xl font-semibold mb-4">Modern WordPress & E-commerce</h3>
               <p className="text-gray-300 leading-relaxed">
-                Crafting high-performance, responsive UI using React, Next.js, and modern CSS frameworks like Tailwind. Focus on UX and pixel-perfect implementation.
+                Specialist in custom Gutenberg blocks, WooCommerce integrations, and Headless WordPress. Building high-converting shopping experiences and complex POS integrations.
               </p>
             </div>
             <div className="p-8 bg-gray-800 rounded-xl border border-gray-700 hover:border-blue-500 transition-colors duration-300">
               <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6">
                 <FaServer className="text-blue-400 text-2xl" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4">Backend & Infrastructure</h3>
+              <h3 className="text-2xl font-semibold mb-4">React & Full Stack Architecture</h3>
               <p className="text-gray-300 leading-relaxed">
-                Building scalable APIs and robust server-side logic with PHP, Laravel, modern WordPress approach, and databases. Experience with cloud deployments and CI/CD pipelines.
+                Crafting pixel-perfect UIs with React and Next.js, backed by robust Laravel/Symfony APIs. Applying rigorous analytical methodologies from a Physics background to software architecture.
               </p>
             </div>
           </div>
@@ -53,39 +53,39 @@ export default function Home() {
 
       <Section id="professional" className="bg-black min-h-screen flex flex-col items-center justify-center">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8 text-blue-400">US & LATAM Focused</h2>
+          <h2 className="text-3xl font-bold mb-8 text-blue-400">Beyond the Code</h2>
           <p className="text-xl text-gray-300 mb-12">
-            Specialized in collaborating with international teams across US and LATAM. 
-            Providing high-quality software solutions with perfect timezone alignment and polyglot communication.
+            A &quot;UX-Aware&quot; developer who bridges the gap between backend logic and pixel-perfect UI, 
+            ensuring technical solutions drive measurable commercial growth.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
             <div className="text-left p-6 border-l-4 border-blue-500 bg-gray-800 rounded-r-lg">
               <div className="flex items-center mb-2">
                 <FaCheckCircle className="text-blue-400 mr-2" />
-                <h4 className="font-bold text-lg">Timezone Aligned</h4>
+                <h4 className="font-bold text-lg">Physics-Driven Logic</h4>
               </div>
-              <p className="text-sm text-gray-400">Full availability during standard US business hours (EST/PST) for seamless collaboration.</p>
+              <p className="text-sm text-gray-400">Applying rigorous analytical methodologies to build scalable and optimized solutions.</p>
             </div>
             <div className="text-left p-6 border-l-4 border-blue-500 bg-gray-800 rounded-r-lg">
               <div className="flex items-center mb-2">
                 <FaCheckCircle className="text-blue-400 mr-2" />
-                <h4 className="font-bold text-lg">Full Stack Mastery</h4>
+                <h4 className="font-bold text-lg">Analytics & Growth</h4>
               </div>
-              <p className="text-sm text-gray-400">From concept to deployment, handling every layer of the stack with industry best practices.</p>
+              <p className="text-sm text-gray-400">Engineering custom GTM/GA4 data layers to track business KPIs and ensure measurable results.</p>
             </div>
             <div className="text-left p-6 border-l-4 border-blue-500 bg-gray-800 rounded-r-lg">
               <div className="flex items-center mb-2">
                 <FaCheckCircle className="text-blue-400 mr-2" />
-                <h4 className="font-bold text-lg">Polyglot Communication</h4>
+                <h4 className="font-bold text-lg">UX-Aware Development</h4>
               </div>
-              <p className="text-sm text-gray-400">Fluent in English, Spanish and Portuguese, ensuring clear and effective communication with all stakeholders.</p>
+              <p className="text-sm text-gray-400">Translating Figma/Adobe XD designs into high-performance, responsive, and accessible interfaces.</p>
             </div>
             <div className="text-left p-6 border-l-4 border-blue-500 bg-gray-800 rounded-r-lg">
               <div className="flex items-center mb-2">
                 <FaCheckCircle className="text-blue-400 mr-2" />
-                <h4 className="font-bold text-lg">Remote Work Expert</h4>
+                <h4 className="font-bold text-lg">Global Collaboration</h4>
               </div>
-              <p className="text-sm text-gray-400">More than 5 years working in distributed teams using Agile methodologies in Global environment.</p>
+              <p className="text-sm text-gray-400">Fluent in English, Spanish, and Portuguese with extensive experience in US and European markets.</p>
             </div>
           </div>
         </div>

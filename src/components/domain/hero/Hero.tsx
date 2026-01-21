@@ -44,8 +44,8 @@ const Hero: React.FC = () => {
 
         <HomeTitle />
 
-        <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto text-gray-400 leading-relaxed">
-          Senior Full Stack Engineer with <span className="text-white font-semibold">10+ years</span> of experience. <span className="text-white font-semibold">PHP and React specialist</span>, delivering scalable architectures, high-performance APIs, smooth and responsive UI. Always seeking client satisfaction.
+        <p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto text-gray-400 leading-relaxed">
+          Senior Full Stack Engineer with a background in <span className="text-white font-semibold">Physics</span>. I build scalable <span className="text-white font-semibold">E-commerce</span> solutions using <span className="text-blue-400 font-semibold">Modern WordPress</span>, <span className="text-blue-400 font-semibold">Laravel</span>, and <span className="text-blue-400 font-semibold">React</span>.
         </p>
 
         {/* Call to Action */}
