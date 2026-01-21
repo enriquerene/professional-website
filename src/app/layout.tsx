@@ -13,7 +13,7 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  title: 'Enrique René | Full Stack UX Engineer',
+  title: 'Enrique René | Senior Full Stack Engineer (PHP, React & WordPress)',
   description: SITE_DESCRIPTION,
   icons: {
     icon: '/images/favicon.png',

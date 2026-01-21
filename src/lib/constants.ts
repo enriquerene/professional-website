@@ -1,7 +1,7 @@
 import { SocialLink, NavLink } from "@/types";
 
 // Common text strings used throughout the application
-export const SITE_DESCRIPTION = "Full Stack UX Engineer | PHP and React specialist | Figma, Storybook, Next.js, React Native, Laravel, WordPress.";
+export const SITE_DESCRIPTION = "Senior Full Stack Engineer & Physics-driven developer specializing in Modern WordPress, React, and PHP. Building scalable, UX-aware E-commerce solutions.";
 
 // Other constants can be added here as needed
 export const SITE_NAME = "Enrique René";
@@ -37,18 +37,19 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ];
 
 export const TECHNICAL_SKILLS = [
-  "React",
-  "React Native",
-  "Next.js",
-  "TypeScript",
-  "Storybook",
-  "Jest",
-  "PHP",
+  "PHP (8.x)",
+  "JavaScript (ES6+)",
+  "React.js",
+  "WordPress (Gutenberg)",
+  "WooCommerce",
   "Laravel",
-  "WordPress",
-  "MySQL",
-  "Figma",
-  "Tailwind CSS",
+  "Symfony",
+  "Next.js",
+  "Shopify (Liquid)",
+  "MySQL / PostgreSQL",
+  "AWS (EC2, S3, RDS)",
   "Docker",
-  "AWS",
+  "TailwindCSS",
+  "Figma",
+  "Google Analytics 4 / GTM",
 ];
