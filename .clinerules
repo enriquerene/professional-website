@@ -1,0 +1,36 @@
+# .clinerules - Next.js Frontend Excellence
+
+## Core Principles
+- Prioritize user experience and accessibility (WCAG AA minimum)
+- Write clean, maintainable, and type-safe code
+- Follow Next.js 13+ App Router best practices
+- Implement performance optimization automatically
+
+## Code Standards
+- Use TypeScript with strict mode enabled
+- Follow ESLint and Prettier configurations
+- Component-driven architecture with atomic design
+- Proper error handling and loading states
+
+## Next.js Best Practices
+- Optimize images with next/image
+- Implement proper caching strategies
+- Use Server Components by default, Client Components when needed
+- Route protection and middleware for auth
+- SEO optimization (meta tags, structured data, sitemap)
+
+## UX/UI Excellence
+- Mobile-first responsive design
+- Accessibility: semantic HTML, ARIA labels, keyboard navigation
+- Fast Core Web Vitals (LCP, FID, CLS)
+- Dark mode support consideration
+- Loading skeletons and transitions
+
+## Performance
+- Code splitting and lazy loading
+- Optimize bundles with dynamic imports
+- Font optimization and preloading
+- Image optimization strategies
+- CSS minimization
+
+## File Organization
