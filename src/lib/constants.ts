@@ -1,7 +1,7 @@
 import { SocialLink, NavLink } from "@/types";
 
 // Common text strings used throughout the application
-export const SITE_DESCRIPTION = "Senior Full Stack Engineer & Physics-driven developer specializing in Modern WordPress, React, and PHP. Building scalable, UX-aware E-commerce solutions.";
+export const SITE_DESCRIPTION = "Bridging the gap between complex backend logic and high-converting user experiences. Physics-driven engineering for scalable E-commerce.";
 
 // Other constants can be added here as needed
 export const SITE_NAME = "Enrique René";
@@ -52,4 +52,23 @@ export const TECHNICAL_SKILLS = [
   "TailwindCSS",
   "Figma",
   "Google Analytics 4 / GTM",
+];
+
+export const SKILL_CATEGORIES = [
+  {
+    title: "Backend & Architecture",
+    skills: ["PHP (8.x)", "Laravel", "Symfony", "MySQL / PostgreSQL", "Docker", "AWS (EC2, S3, RDS)"]
+  },
+  {
+    title: "Frontend & UX",
+    skills: ["JavaScript (ES6+)", "React.js", "Next.js", "TailwindCSS", "Figma", "Shopify (Liquid)"]
+  },
+  {
+    title: "E-commerce & CMS",
+    skills: ["WordPress (Gutenberg)", "WooCommerce", "Shopify (Liquid)"]
+  },
+  {
+    title: "DevOps & Cloud",
+    skills: ["AWS (EC2, S3, RDS)", "Docker", "Google Analytics 4 / GTM"]
+  }
 ];

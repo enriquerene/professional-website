@@ -44,15 +44,15 @@ const Hero: React.FC = () => {
 
         <HomeTitle />
 
-        <p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto text-gray-400 leading-relaxed">
-          Senior Full Stack Engineer with a background in <span className="text-white font-semibold">Physics</span>. I build scalable <span className="text-white font-semibold">E-commerce</span> solutions using <span className="text-blue-400 font-semibold">Modern WordPress</span>, <span className="text-blue-400 font-semibold">Laravel</span>, and <span className="text-blue-400 font-semibold">React</span>.
+        <p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto text-gray-400 leading-relaxed" style={{ lineHeight: '1.8' }}>
+          Bridging the gap between complex backend logic and high-converting user experiences. Physics-driven engineering for scalable E-commerce.
         </p>
 
         {/* Call to Action */}
         <div className="flex flex-col sm:flex-row gap-5 justify-center mb-16">
           <Button href={WHATSAPP_URL}>
             <FaWhatsapp className="mr-3 h-5" />
-            Chat with me right now
+            Discuss Your Architecture
           </Button>
           <Button href={RESUME_URL} variant="secondary">
             Download Resume (PDF)

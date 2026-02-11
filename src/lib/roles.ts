@@ -6,7 +6,7 @@ export const FEATURED_ROLES: FeaturedRole[] = [
     title: 'Full Stack Engineer (Contract)',
     company: 'Trident1 (US Firearm Industry)',
     period: '07/2025 - 12/2025',
-    brief: 'Migration of a legacy non-OOP PHP WordPress plugin to modern block based composer based PHP 8.3 project.',
+    brief: 'Engineered the modernization of a legacy ecosystem. Refactored a monolithic, non-OOP plugin into a modular, Composer-based PHP 8.3 architecture.',
     description: 'Developed complex integrations between the POS system and external WooCommerce platforms. Focused on modernizing legacy codebases using modern PHP 8.3 practices and WordPress block editor (Gutenberg) integration.',
     technologies: ['PHP 8.3', 'WordPress', 'WooCommerce', 'React', 'Gutenberg', 'API Integration']
   },
@@ -34,16 +34,16 @@ export const FEATURED_ROLES: FeaturedRole[] = [
     title: 'Full Stack Developer',
     company: 'CNF (National Registry)',
     period: '04/2024 – 02/2025',
-    brief: 'Migrating a 15GB+ database system from legacy PHP to Laravel & Filament.',
-    description: 'Designing a REST API to serve external partners and modernizing the UI with Bootstrap-based design systems. Focus on handling large data volumes and efficient database architecture.',
+    brief: 'Architected the migration of a 15GB+ dataset from legacy PHP to Laravel/Filament, ensuring zero data loss and designing a secure REST API.',
+    description: 'Designed a REST API to serve external partners and modernized the UI with Bootstrap-based design systems. Focus on handling large data volumes and efficient database architecture.',
     technologies: ['Laravel', 'Filament', 'PHP', 'MySQL', 'REST API', 'Bootstrap']
   },
   {
     id: 'freelance',
-    title: 'Freelance Web Developer & Consultant',
+    title: 'Senior Web Consultant',
     company: 'Self-Employed',
     period: '2011 – 2021',
-    brief: 'Delivered 20+ web projects for startups and local businesses.',
+    brief: 'Full-cycle development, PWA solutions, and Advanced Analytics (GTM) for global clients.',
     description: 'Built custom PWA solutions using React, AWS LightSail, and Django REST Framework. Developed custom WordPress themes and plugins. Configured advanced tracking setups using Google Tag Manager to help clients understand user behavior.',
     technologies: ['React', 'WordPress', 'Django', 'AWS LightSail', 'GTM', 'Google Maps API']
   }

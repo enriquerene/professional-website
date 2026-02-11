@@ -5,9 +5,9 @@ import React from 'react';
 export const DevRole: React.FC = () => {
   return (
     <div className="pt-2 text-xl sm:text-2xl md:text-3xl font-light tracking-[0.1em] text-gray-400 uppercase">
-      <span className="text-white font-medium">Senior Full Stack Engineer</span>
+      <span className="text-white font-bold">Senior Full Stack Engineer</span>
       <div className="text-blue-400 text-lg sm:text-xl md:text-2xl mt-1 tracking-widest font-normal">
-        PHP, React & WordPress Specialist
+        Laravel, React & Cloud Architecture
       </div>
     </div>
   );

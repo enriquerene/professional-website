@@ -13,7 +13,7 @@ export const Section: React.FC<SectionProps> = ({
     <section
       id={id}
       className={cn(
-        'py-16 md:py-24',
+        'py-24 md:py-32',
         className
       )}
     >

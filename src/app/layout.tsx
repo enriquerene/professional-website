@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-import { SITE_DESCRIPTION } from "../lib/constants";
 import React from "react";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 
@@ -13,8 +12,8 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  title: 'Enrique René | Senior Full Stack Engineer (PHP, React & WordPress)',
-  description: SITE_DESCRIPTION,
+  title: 'Enrique René | Senior Full Stack Engineer & Software Architect',
+  description: 'Bridging the gap between complex backend logic and high-converting user experiences. Physics-driven engineering for scalable E-commerce.',
   icons: {
     icon: '/images/favicon.png',
     apple: '/images/favicon.png',
